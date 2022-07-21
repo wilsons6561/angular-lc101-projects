@@ -6,10 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./fav-photos.component.css']
 })
 export class FavPhotosComponent implements OnInit {
-  photosTitle = 'Photo/Image Section Title Here';
-  image1 = 'https://www.launchcode.org/assets/icons/target-00c7a0bc7776901e3c5cdc4c36c465f19e41a249bc7267a595f0bfa14ab944b7.png';
-  image2 = '';
-  image3 = '';
+  photosTitle = 'My Favorite Photos';
+  image1 = 'https://www.stlzoo.org/files/8915/5743/5404/Orangutan_Merah_-_JoEllen_Toler_Saint_Louis_Zoo.JPG'
+  image2 = 'https://www.stlzoo.org/files/9714/2047/1232/Baby-orangutan-Jan-1-2015_IMG_8314_Stephanie-Braccini_Saint_Louis_Zoo_web.jpg'
+  image3 = 'https://www.stlzoo.org/files/4215/9775/7252/Cinta_rain_5.jpg'
 
   constructor() { }
 
